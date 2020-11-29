@@ -1,0 +1,372 @@
+/* 
+Author: Md. Asraful Islam
+Email: jisanahmedasraful@gmail.com
+Website: mdasrafulislam.com
+*/
+
+/* 
+=== Index ===
+
+1. header
+2. Fusce at          
+3. Facilisis          
+4. Ante donec          
+5. Blandit rhoncus          
+6. Placerat
+7. Footer
+
+ */
+
+/*--Global css--*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--Theme Css--*/
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+header
+{
+    padding: 0px;
+}
+
+section
+{
+    padding: 0px;
+}
+
+.navbar
+{
+    padding: 25px 0px;
+    background: #edeff1;
+}
+
+.nav-link
+{
+    color: #31353e;
+}
+
+.nav-item
+{
+    margin: 0px 10px;
+}
+
+.nav-link.js-scroll-trigger.active 
+{
+	background: #dd4b2b;
+	border-radius: 50px;
+	color: #fff;
+	padding: 5px 28px;
+}
+
+/*---bannar---*/
+
+.bannar-sec
+{
+    background-image: url(../img/bannar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.bannar-sec .bannar-title h2 
+{
+	padding-top: 300px;
+	font-size: 60px;
+	color: #fff;
+	text-align: center;
+}
+
+.bannar-sec .bannar-title h4 
+{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+    padding-bottom: 100px;
+}
+
+.bannar-sec .mini-img-box
+{
+    text-align: center;
+}
+
+.bannar-sec .mini-img-box h3 
+{
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+	padding: 15px 0px;
+}
+
+.bannar-sec .mini-img-box p 
+{
+	font-size: 15px;
+	font-weight: 300;
+	color: #fff;
+	padding: 0px 20px;
+    line-height: 30px;
+}
+
+.bannar-sec .cust-btn 
+{
+	display: block;
+	border: 0px;
+	padding: 10px 40px;
+	margin: 60px auto;
+	border-radius: 50px;
+	color: #814f45;
+	margin-bottom: 100px;
+}
+
+/*---our news----*/
+
+
+.our-news-sec
+{
+    background: #edeff1;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.our-news-sec .our-news h2
+{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 50px;
+    color: #31353e;
+}
+
+.our-news-sec .our-img-box h3 
+{
+	font-size: 30px;
+	font-weight: bold;
+	color: #31353e;
+	padding-top: 25px;
+}
+
+.our-news-sec .our-img-box p
+{
+    color: #4F535C;
+    line-height: 30px;
+}
+
+.our-news-sec .our-img-box .cust-btn 
+{
+    background: #fff;
+    display: block;
+	border: 0px;
+	padding: 10px 40px;
+	margin: 30px auto;
+	border-radius: 50px;
+	color: #6D6E70;
+}
+
+/*---Newsletter----*/
+
+.newsletter-sec
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../img/img-sec3-0.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.newsletter-sec .newsletter
+{
+    padding: 80px 0px;
+}
+
+.newsletter-sec .newsletter h3 
+{
+    text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.newsletter-sec .newsletter p
+{
+    text-align: center;
+    font-weight: 300;
+    color: #fff;
+}
+
+.newsletter-sec .newsletter .input-control
+{
+    width: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    height: 45px;
+    border-radius: 50px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.newsletter-sec .newsletter .sub-btn 
+{
+	position: absolute;
+	background: #fff;
+	padding: 10px 40px;
+	right: 15px;
+	border: 0px;
+	border-radius: 50px;
+}
+
+
+/*-----service---*/
+
+
+.service-sec
+{
+    padding: 50px 0px;
+}
+
+.service-sec .service-box
+{
+    padding: 20px 0px;
+}
+
+.service-sec .ext-padd
+{
+    padding-left: 25px;
+}
+
+.service-sec .service-box h3
+{
+    font-size: 30px;
+	font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 20px;
+	color: #31353e;
+}
+
+.service-sec .service-box p
+{
+    font-size: 15px;
+    color: #4F535C;
+    line-height: 30px;
+}
+
+.service-sec .service-box .service-btn
+{
+    background: #dd4b2b;
+	padding: 10px 60px;
+	right: 15px;
+	border: 0px;
+	border-radius: 50px;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.service-sec .service-box .service-btn-tow
+{
+    background: #4b4e73;
+	padding: 10px 60px;
+	right: 15px;
+	border: 0px;
+	border-radius: 50px;
+    margin-top: 30px;
+    color: #fff;
+}
+
+
+/*---Placerat---*/
+
+.Placerat-sec
+{
+    background: #d75d0e;
+    padding: 50px 0px;
+}
+
+.Placerat-sec .Placerat-box ul li
+{
+    list-style-type: none;
+    text-align: center;
+}
+
+.Placerat-sec .Placerat-box ul li a
+{
+    text-decoration: none;
+    line-height: 30px;
+    color: #fff; 
+}
+
+.Placerat-bannar
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../img/img-sec3-0.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.Placerat-bannar .Placerat-con p
+{
+    text-align: center;
+    color: #e2e2e2;
+    padding-top: 80px;
+    padding-bottom: 130px;
+    font-size: 15px;
+}
+
+
+/*---media---*/
+
+@media (max-width: 576px)
+{
+    .navbar-brand
+    {
+        padding-left: 20px;
+    }
+    
+    .nav-link
+    {
+        text-align: center;
+    }
+    
+    .fa 
+    {
+	    margin-right: 10px;
+	    width: 40px;
+	    height: 40px;
+	    line-height: 40px;
+        border-radius: 2px;
+	    background: #D75D0E;
+	    color: #fff;
+    }
+    
+    .bannar-sec .bannar-title h2 
+    {
+	    padding-top: 160px;
+	    font-size: 40px;
+    }
+    
+    .bannar-sec .bannar-title h4
+    {
+        font-size: 20px;
+    }
+    
+    .service-sec .ext-padd 
+    {
+        padding-left: 0px;
+    }
+    
+    
+}
+
+
+
+
+
